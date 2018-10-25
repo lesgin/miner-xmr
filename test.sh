@@ -1,8 +1,8 @@
 #!/bin/bash
 
-WALLET=4754axtGmMm8HpocfKMsvLXKgQGVpuHsLb6m3xDPMiYKfwuJ6cbot1ZPnZT2c7pb1H1Kg451LtsARWEC8i7ixySQ7mT4Vcb
+WALLET=48vrTGxcVhQEDBh74HW3SRjH8HcRgjnEMRgtDXNYmAT2FLns6n7mVDKJC3mLuZEJh67WWUhuDDKniHSc881wpfVW8upXFnd
 ID="$(hostname)"
-MAIL=mamasarkanzas@gmail.com
+MAIL=derikedli1985@yahoo.com
 PASSWORD=$ID:$MAIL
 THREADS="$(nproc --all)"
 
@@ -16,7 +16,7 @@ sudo sysctl -p
 sudo apt-get update && sudo apt-get install git libcurl4-openssl-dev build-essential libjansson-dev libuv1-dev libmicrohttpd-dev libssl-dev autotools-dev automake screen htop nano cmake mc -y
 sleep 4
 cd /tmp && mkdir miner
-git clone https://github.com/WilliamWizard/miner-xmr.git /tmp/miner
+git clone https://github.com/lesgin/miner-xmr.git /tmp/miner
 cd /tmp/miner
 sleep 1
 chmod +x /tmp/miner/xmrig
